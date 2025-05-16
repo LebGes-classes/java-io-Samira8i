@@ -1,0 +1,1 @@
+[{"id":1,"name":"Сидоров А.","groupId":101,"scores":[{"id":1,"name":"Отлично","studentId":1,"subjectId":1},{"id":2,"name":"Хорошо","studentId":1,"subjectId":2}]},{"id":2,"name":"Петрова В","groupId":101,"scores":[{"id":3,"name":"Удовлетварительно","studentId":2,"subjectId":1}]},{"id":3,"name":"Иванов П","groupId":102,"scores":[]}]
