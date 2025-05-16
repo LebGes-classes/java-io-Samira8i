@@ -12,6 +12,24 @@ public class MainApp {
     private static List<Journal> journals;
     private static Scanner scanner = new Scanner(System.in);
 
+    public static List<Student> getStudents() { return students; }
+    public static void setStudents(List<Student> students) { MainApp.students = students; }
+
+    public static List<Group> getGroups() { return groups; }
+    public static void setGroups(List<Group> groups) { MainApp.groups = groups; }
+
+    public static List<Teacher> getTeachers() { return teachers; }
+    public static void setTeachers(List<Teacher> teachers) { MainApp.teachers = teachers; }
+
+    public static List<Journal> getJournals() { return journals; }
+    public static void setJournals(List<Journal> journals) { MainApp.journals = journals; }
+
+    public static List<Score> getScores() { return scores; }
+    public static void setScores(List<Score> scores) { MainApp.scores = scores; }
+
+    public static List<Subject> getSubjects() { return subjects; }
+    public static void setSubjects(List<Subject> subjects) { MainApp.subjects = subjects; }
+
     public static void main(String[] args) {
         try {
             // загружаю все из эксельки
